@@ -1,0 +1,99 @@
+SOFTWARE DEVELOPMENT LIFE CYCLE-----SDLC
+  It is a structured process used by software developers and project managers to design, develop, test, and deploy software systems efficiently and effectively.
+
+  🔄 Stages of the SDLC:
+    
+    Requirement Gathering and Analysis
+        Understand what the client or user needs
+        Document and analyze requirements
+        Identify technical and feasibility constraints
+
+    Planning
+        Define project scope
+        Estimate cost, time, and resources
+        Create a project plan or schedule
+
+    Design
+        System architecture and design specifications are created
+        UI/UX design, database design, and technical stack selection happen here
+
+    Implementation (Coding/Development)
+        Developers write code based on the design documents
+        Code is written in modules or units
+
+    Testing
+        Check for bugs and verify the software meets the requirements
+        Types: unit testing, integration testing, system testing, user acceptance testing
+
+    Deployment
+        The software is released to the production environment
+        May involve a beta release before full rollout
+
+    Maintenance
+        Fix bugs found in production
+        Update and improve features over time
+
+✅ Benefits of SDLC:
+
+    Ensures high-quality software
+    Provides a clear project roadmap
+    Helps manage time and resources efficiently
+    Reduces project risk
+
+SDLC roles in devops
+
+In DevOps, the Software Development Life Cycle (SDLC) is adapted to support continuous integration, continuous delivery, and automation across all stages. Traditional SDLC focuses on a sequential process, while DevOps SDLC emphasizes collaboration, automation, and rapid, reliable delivery.
+
+🔁 SDLC in DevOps: Key Stages
+
+    Plan
+        Define requirements and goals collaboratively (Dev + Ops + Stakeholders)
+        Use tools like Jira, Azure Boards, or GitHub Projects
+
+    Develop
+        Code is written using version control systems (e.g., Git)
+        Code is continuously integrated (CI) into a shared repository
+        Code reviews, branch strategies, and automated testing are used
+
+    Build
+        Automated build tools (e.g., Jenkins, GitLab CI/CD, Azure Pipelines) compile code
+        Artifacts are generated and stored (e.g., Docker images, JARs)
+
+    Test
+        Automated tests are triggered (unit, integration, UI, security, etc.)
+        Tools: Selenium, JUnit, Postman, SonarQube
+
+    Release
+        Artifacts are deployed to staging or production environments
+        Continuous Delivery (CD) ensures fast, safe, and frequent releases
+
+    Deploy
+        Deployment can be automated, canary-based, blue/green, or rolling
+        Tools: Kubernetes, Helm, AWS CodeDeploy, ArgoCD
+
+    Operate
+        Monitor systems for uptime, performance, and errors
+        Use observability tools (Prometheus, Grafana, ELK stack)
+
+    Monitor & Feedback
+        Collect feedback from users and systems
+        Feed insights back to the development team to improve the next cycle
+
+🛠️ DevOps SDLC Tools Example:
+Phase	Common Tools
+Plan	Jira, Confluence, Trello
+Develop	Git, GitHub, GitLab, Bitbucket
+Build	Jenkins, Maven, Gradle, Docker
+Test	Selenium, JUnit, Postman, SonarQube
+Release	GitLab CI/CD, Jenkins, Spinnaker
+Deploy	Kubernetes, ArgoCD, Ansible, Terraform
+Monitor	Prometheus, Grafana, ELK, Datadog
+
+
+✅ Benefits of DevOps SDLC:
+
+    Faster time-to-market
+    Contsinuous feedback loops
+    Improved software quality
+    Reduced manual errors through automation
+    Enhanced collaboration between Dev and Ops teams

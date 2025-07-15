@@ -1,0 +1,37 @@
+how to connect EC2 instance from UI nad TERMINAL...
+
+AWS consoleconnecting to vm
+
+go to AWS website
+select the EC2 Dashboard
+click on instance 
+then aws instance 
+click on connect, scoll down and click on connect.
+connect will be established to virtual machine.
+
+disavantage :console will not remain opens long time,
+            if not in use.
+
+
+CONNECT THROUGH LAPTAP..
+can be use mobaxterm, putty, commandline..
+
+login to vitrual machine through commandline.
+
+go to aws dashboard 
+click on instance button
+click on public address 
+ 
+go to commandline 
+command has ssh ubuntu@ip address from aws
+
+add keyvalue pair
+ssh -i /user/paths where the keyvalue file will be 
+ubuntu@ip-address     'enter'
+again permission denied. because of permission
+
+chmod 600 / paths given as above   'enter'
+again 
+ssh -i /user/paths where the keyvalue file will be 
+ubuntu@ip-address     'enter'
+connection will be done.

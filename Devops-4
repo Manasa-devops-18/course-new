@@ -1,0 +1,13 @@
+AWS , AZURE
+API,s EC2..
+AWS instant
+valid
+authenticated
+authorized
+
+script 
+ a. AWS CLI
+ b. AWS API (python boto3)
+ c.  AWS CFT
+ d. terraform 
+ e. AWS CDK

@@ -1,0 +1,58 @@
+what is JIRA?
+    Jira is a project management tool developed by Atlassian that helps teams track, manage, and release software projects. It's commonly used by software development teams, but also by marketing, IT, design, and operations teams. Jira is known for its flexibility and customization options, allowing it to be adapted to various project needs..
+
+Here are some breakdown :
+ 1. issue tracking
+  a. Tickets
+  b. Issue type , Issue tracking
+ 2. project management
+  a. project planning
+  b. Task management 
+  c. agile methodologies
+  d. workflow automation
+ 3. collaboration and Reporting
+  a. collaboration time
+   b. Reporting and Analytics 
+   c. real time update
+ 5. integration
+ 6. customization
+  a. Dashboards
+  b. boards
+  c. customized fields
+
+
+ AGILE MANAGEMENT---
+    Jira supports various agile methodologies like Scrum and Kanban, providing features like boards, backlogs, roadmaps, and reports.
+
+    SCRUM---
+      scrum is a structured framework with defined roles, sprints, and ceremonies, focusing on delivering working software through iterative development.
+
+    KANBAN---
+      Kanban, on the other hand, is a visual system that focuses on optimizing workflow and continuous delivery through a pull system and visualizing work in progress. 
+
+
+AGILE METHOD---
+   Agile methodology is a project management framework that breaks projects down into several dynamic phases, commonly known as sprints. I
+
+   Understanding the four key steps of Agile methodology—Planning, Development (Iteration), Testing, and Review and Retrospective—provides a solid foundation for implementing Agile practices effectively.
+
+
+   Agile methodology is a project management framework that breaks projects down into several dynamic phases, commonly known as sprints. 
+
+   The Agile framework is an iterative methodology. After every sprint, teams reflect and look back to see if there was anything that could be improved so they can adjust their strategy for the next sprint.
+
+WHY AGILE---
+   Agile development is important because it helps to ensure that development teams complete projects on time and within budget. It also helps to improve communication between the development team and the product owner. Additionally, Agile development methodology can help reduce the risks associated with complex projects.
+
+REFER THE PICTURE---  home/pictures/agile methology picture.png
+
+
+   Sprints :
+    spirnt refinement 
+       Sprint refinement, also known as product backlog refinement, is the ongoing process of reviewing and updating the product backlog. It's a collaborative activity where the product owner, developers, and other stakeholders discuss, clarify, and prioritize items in the backlog, ensuring they are well-understood, estimated, and ready for future sprints. This process helps teams maintain a clear and actionable backlog, leading to more effective sprint planning and execution
+
+    planning
+    DSM 
+    
+    sprint retrospective
+       A sprint retrospective is a meeting held at the end of a sprint in Agile project management, specifically within the Scrum framework. It's a dedicated time for the development team to reflect on the past sprint, identify what went well, what didn't, and what can be improved in the next sprint. This process is crucial for continuous improvement and optimizing team performanc
