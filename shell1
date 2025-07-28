@@ -1,0 +1,12 @@
+To login to linux machine to check performance of machine.
+
+free -g 
+    what is the memory of server.
+
+nproc 
+    number of processors is working.
+
+df -h 
+  disk size .
+
+top -- will give all above deatils in one short.
