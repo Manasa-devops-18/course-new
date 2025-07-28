@@ -3,3 +3,16 @@ commands ----
 1. ls - list the files and folders/directory
 2. pwd - present working directory
 3.cd  - change directory
+       cd ../../  -- go back two directory
+
+ls -ltr / ls -la 
+   to list the detailed about dir,file ad owner who created, permission and time ,date.
+
+4. touch - to create a file
+5. vi -- to create a context with file name
+       vi test 
+       button esc : i for writing in vi
+       button esc , ':wq!  for to save the file and exit from vi.
+
+6. cat - print the file.
+7. mkdir , rm , rmdir. rm -r(to remove dir), rmdir -rf (forcefully delete).
