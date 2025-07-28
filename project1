@@ -1,0 +1,43 @@
+comment on cli as -- aws
+                   -- bash
+aws configure 
+-----if not watch video-----
+
+
+after all above here are steps to be followed.
+1. vim aws_resource_tracker.sh
+opens vim: 
+     click on esc
+     #!/bin/bash
+     # Author : manasa
+     # Date : 11th july
+     # version : v1
+     #
+     # this script will report the aws report uasage
+     ######
+     #AWS sc3
+     #aws ec2
+     #aws lambda
+     #aws IAM users
+
+     set -x
+
+     # list s3 buckets
+     echo "print list of s3 bucket"
+     aws s3 ls > resourceTracker
+
+     # list ec2 instance
+      echo "print list of ec2 instance"
+     aws ec2 describes-instances     ###in crome go to aws cli refernce 
+     aws ec2 describe-instances | jq   '.reservation[].instances[].instanceId[]'
+
+     comment as esc :wq!    for save exit 
+
+    
+go to cli and command has:
+   chmod 777 aws_resource_tracker.sh
+   ./aws_resource_tracker.sh   or 
+   ./aws_resource_tracker.sh | more     ###to read in better way..
+
+
+   aws ec2 describe-instances | jq   '.reservation[].instances[].instanceId[]'
