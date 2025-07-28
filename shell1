@@ -1,6 +1,6 @@
 To login to linux machine to check performance of machine.
 
-free -g 
+free -g (memory)
     what is the memory of server.
 
 nproc 
