@@ -1,0 +1,47 @@
+Ip address :  is used to generate to provide unique address to provide for particular
+              to device that is  connected network..
+
+
+Subnet : Adv -- security, privacy, isolation..
+         they arre divided into 2 types
+         1. private -- does not access to internet
+         2.public --  has access to internet
+
+
+VPC -- Virtual Private Cloud.
+
+It’s a private network environment within a public cloud platform (like AWS, Google Cloud, or Azure) where you can launch and manage resources (such as servers, databases, etc.) in a logically isolated section of the provider's infrastructure.
+
+ 
+CDIR range -- CIDR range means Classless Inter-Domain Routing range. It is a method used to allocate IP addresses and routing IP packets more efficiently than the old class-based system (Class A, B, C).
+
+
+
+A CIDR block is written like this:
+192.168.0.0/24
+
+This means:
+
+    192.168.0.0 is the network address.
+
+    /24 is the prefix length, which shows how many bits are used for the network part.
+
+ What CIDR Range Means:
+
+    It defines a range of IP addresses in a network.
+
+    The smaller the number after the slash, the bigger the network.
+
+    The larger the number, the smaller the network.
+
+Why CIDR is Useful:
+
+    Helps with IP address efficiency.
+
+    Allows flexible subnetting.
+
+    Reduces waste of IPs.
+
+    Used in VPCs, subnets, firewalls, routing tables in AWS and other cloud services.
+
+OSI model  --- refere chatgpt..
