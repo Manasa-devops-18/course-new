@@ -1,0 +1,33 @@
+GIT -- Git is a version control system that helps you track changes in your code or files over time. It's mainly used by developers to collaborate on software development.
+
+ Key Points About Git:
+
+    Distributed Version Control System (DVCS): Every developer has a full copy of the project history.
+
+    Tracks changes: You can go back to previous versions.
+
+    Collaboration: Multiple people can work on the same project without overwriting each other’s changes.
+
+    Branching and Merging: Easily try new ideas using branches, then merge them back.
+
+Why Git is Important:
+
+    Helps avoid losing work.
+
+    Useful when collaborating with a team.
+
+    Keeps a full history of your project.
+
+    Used in DevOps, open-source projects, software companies, etc.
+
+Git hub --- GitHub is a web-based platform that hosts Git repositories online. It helps developers store, manage, and collaborate on code using Git.
+
+
+Feature	Description
+Repository (Repo)	A folder where your code and Git history are stored.
+Version Control	    Tracks changes in your code over time (using Git).
+Collaboration	     Multiple people can work on the same project together.
+Cloud Backup	     Your code is safe and accessible from anywhere.
+Pull Requests	    Suggest changes, review, and merge code.
+Issues	            Track bugs, tasks, or feature requests.
+Actions (CI/CD)	     Automate tasks like testing and deployment.
