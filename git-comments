@@ -1,0 +1,53 @@
+git commands ---
+
+TO CREATE A GIT REPO :
+    1. git init 
+    
+    2. git add:
+            Meaning: Adds changes from your working directory to the staging area (prepares the changes to be committed).
+    Use case: You made changes to a file and want to save them in Git.
+syntax --- git add filename   or  git add .
+
+    3.git commit :
+        Meaning: Takes everything from the staging area and saves it as a snapshot (commit) in your Git repository.
+    Use case: After staging changes using git add, you commit them with a message describing what was done.
+syntax----git commit -m "commit message"
+
+    4. git diff : 
+        Meaning : Shows a history of all commits in the current branch.
+    Use case: You want to see who made what changes and when.
+syntax ---- git log 
+
+    5. git diff :
+        Meaning : git diff shows the difference between two sets of files — usually between your working directory and the staging area (or between commits).
+
+1. Check unstaged changes (working directory vs staging area)
+syntax -- git diff
+
+2. Check staged changes (staging area vs last commit)
+syntax -- git diff --cached   or git diff --staged (shows what you've staged with git 
+                                                        add but havnt comment yet)
+
+3. Compare two commits
+syntax --- git diff commit1 commit2    example : git diff adc123 ghy123
+
+4. Compare current branch with another
+syntax -- git diff main dev      (Shows changes between main and dev branches.)
+EXAMPLE :  
+   echo "Hello World" >> file.txt
+   git diff
+OUTPUT ------
+This will show something like:
++Hello World
++ means this line was added.
+
+    6. git log :
+        git log shows the history of commits in your Git repository — in reverse chronological order (latest commit first).
+    syntax -- git log 
+
+    7. git reset --hard commit id 
+    example--- git reset --hard 556b144400544266325266
+       above command takes us to pervoius version of code 
+
+    8. how to share the code :
+        
